@@ -1,0 +1,293 @@
+  <NoSQLDB>
+    <record>
+      <key>
+        Executive
+      </key>
+      <value>
+        <name>
+          Package 1
+        </name>
+        <dateTime>
+          Thu Feb  6 11:05:03 2018
+        </dateTime>
+        <payLoad>
+        </payLoad>
+        <description>
+         Program execution starts here.
+        </description>
+        <children>
+          <key>
+            Test
+          </key>
+        </children>
+      </value>
+    </record>
+    <record>
+      <key>
+        Test
+      </key>
+      <value>
+        <name>
+          Package 2
+        </name>
+        <dateTime>
+          Thu Feb  6 11:05:03 2018
+        </dateTime>
+        <payLoad>
+        </payLoad>
+        <description>
+          Contains test stubs for each requirement.
+        </description>
+        <children>
+          <key>
+            DbCore
+          </key>
+	  <key>
+            Persistence
+          </key>
+	  <key>
+            Query
+          </key>
+	  <key>
+            DateTime
+          </key>
+	  <key>
+            StringUtilities
+          </key>
+	  <key>
+            TestUtilities
+          </key>
+        </children>
+      </value>
+    </record>
+    <record>
+      <key>
+        DbCore
+      </key>
+      <value>
+        <name>
+          Package 3
+        </name>
+        <dateTime>
+          Thu Feb  6 11:05:03 2018
+        </dateTime>
+        <payLoad>
+        </payLoad>
+        <description>
+         Contains implementation of NoSQLDB as classes.
+        </description>
+        <children>
+          <key>
+            DateTime
+          </key>
+        </children>
+      </value>
+    </record>
+    <record>
+      <key>
+        Persistence
+      </key>
+      <value>
+        <name>
+          Package 4
+        </name>
+        <dateTime>
+          Thu Feb  6 11:05:03 2018
+        </dateTime>
+        <payLoad>
+        </payLoad>
+        <description>
+         Persists the DBCore object as XML and vice versa.
+        </description>
+        <children>
+          <key>
+            XmlDocument
+          </key>
+          <key>
+            XmlParser
+          </key>
+          <key>
+            XmlElement
+          </key>
+        </children>
+      </value>
+    </record>
+    <record>
+      <key>
+        Query
+      </key>
+      <value>
+        <name>
+          Package 5
+        </name>
+        <dateTime>
+          Thu Feb  6 11:05:03 2018
+        </dateTime>
+        <payLoad>
+        </payLoad>
+        <description>
+         Allows querying on DBCore NoSQLDB.
+        </description>
+        <children>
+          <key>
+          </key>
+        </children>
+      </value>
+    </record>
+    <record>
+      <key>
+        DateTime
+      </key>
+      <value>
+        <name>
+          Package 6
+        </name>
+        <dateTime>
+          Thu Feb  6 11:05:03 2018
+        </dateTime>
+        <payLoad>
+        </payLoad>
+        <description>
+         Contains DateTime class which is used to work with Duration and Time_point.
+        </description>
+        <children>
+          <key>
+          </key>
+        </children>
+      </value>
+    </record>
+    <record>
+      <key>
+        StringUtilities
+      </key>
+      <value>
+        <name>
+          Package 7
+        </name>
+        <dateTime>
+          Thu Feb  6 11:05:03 2018
+        </dateTime>
+        <payLoad>
+        </payLoad>
+        <description>
+         Contains functionality to modify and work with strings.
+        </description>
+        <children>
+          <key>
+          </key>
+        </children>
+      </value>
+    </record>
+    <record>
+      <key>
+        TestUtilities
+      </key>
+      <value>
+        <name>
+          Package 8
+        </name>
+        <dateTime>
+          Thu Feb  6 11:05:03 2018
+        </dateTime>
+        <payLoad>
+        </payLoad>
+        <description>
+         Contains functionality which helps with registering and executing test stubs.
+        </description>
+        <children>
+          <key>
+          </key>
+        </children>
+      </value>
+    </record>
+    <record>
+      <key>
+        XmlDocument
+      </key>
+      <value>
+        <name>
+          Package 9
+        </name>
+        <dateTime>
+          Thu Feb  6 11:05:03 2018
+        </dateTime>
+        <payLoad>
+        </payLoad>
+        <description>
+         Provides XML document building helper methods.
+        </description>
+        <children>
+          <key>
+            XmlElementParts
+          </key>
+        </children>
+      </value>
+    </record>
+    <record>
+      <key>
+        XmlParser
+      </key>
+      <value>
+        <name>
+          Package 10
+        </name>
+        <dateTime>
+          Thu Feb  6 11:05:03 2018
+        </dateTime>
+        <payLoad>
+        </payLoad>
+        <description>
+         Provides XML parsing helper methods.
+        </description>
+        <children>
+          <key>
+            XmlElementParts
+          </key>
+        </children>
+      </value>
+    </record>
+    <record>
+      <key>
+        XmlElement
+      </key>
+      <value>
+        <name>
+          Package 11
+        </name>
+        <dateTime>
+          Thu Feb  6 11:05:03 2018
+        </dateTime>
+        <payLoad>
+        </payLoad>
+        <description>
+         Provides methods that help build XML elements.
+        </description>
+        <children>
+          <key>
+          </key>
+        </children>
+      </value>
+    </record>
+    <record>
+      <key>
+        XmlElementParts
+      </key>
+      <value>
+        <name>
+          Package 12
+        </name>
+        <dateTime>
+          Thu Feb  6 11:05:03 2018
+        </dateTime>
+        <payLoad>
+        </payLoad>
+        <description>
+         Provides XML helper methods.
+        </description>
+        <children>
+          <key>
+          </key>
+        </children>
+      </value>
+    </record>
+  </NoSQLDB>

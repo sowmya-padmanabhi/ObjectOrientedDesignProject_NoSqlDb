@@ -1,0 +1,31 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Tue Feb  6 22:34:08 2018
+     Path: "C:\Users\sowmy\Desktop\OOD Projects\NoSqlDb\Persistence"
+     Args: Persistence.h, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      19
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+             Persistence.h       class                        Persistence      37      28      15
+             Persistence.h    function                     convertIntoObj      48      11       1
+             Persistence.h    function                            fromXml     110      73      13
+             Persistence.h    function                              toXml      69      37       3
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+             Persistence.h    function                            fromXml     110      73      13
+
+
+
+    searched     3 dirs
+   processed     1 files

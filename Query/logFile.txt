@@ -1,0 +1,58 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Tue Feb  6 22:37:08 2018
+     Path: "C:\Users\sowmy\Desktop\OOD Projects\NoSqlDb\Query"
+     Args: Query.h, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      48
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                   Query.h       class                            PayLoad      32      17       7
+                   Query.h    function                        getFilePath      36       2       1
+                   Query.h    function                        getFilePath      37       2       1
+                   Query.h    function                        setFilePath      38       2       1
+                   Query.h    function                      getCategories      41       2       1
+                   Query.h    function                      getCategories      42       2       1
+                   Query.h    function                      setCategories      43       2       1
+                   Query.h    function                         operator<<      51       8       1
+                   Query.h       class                              Query      62     233      39
+                   Query.h    function                               show      66       4       1
+                   Query.h    function                        showElement      72       5       1
+                   Query.h    function                             addKey      79       4       1
+                   Query.h    function                          deleteKey      85       9       2
+                   Query.h    function                           modifyDb      96       5       1
+                   Query.h    function                        valueForKey     103       4       1
+                   Query.h    function                     childrenForKey     109      10       1
+                   Query.h    function                          getDbCore     120       2       1
+                   Query.h    function                          getDbCore     121       2       1
+                   Query.h    function                          setDbCore     122       2       1
+                   Query.h    function                       getQueryKeys     125       2       1
+                   Query.h    function                       getQueryKeys     126       2       1
+                   Query.h    function                       setQueryKeys     127       2       1
+                   Query.h    function                               from     131       6       1
+                   Query.h    function                             select     139      14       1
+                   Query.h    function                              where     155      34       5
+                   Query.h    function                          dateRange     191      16       3
+                   Query.h    function                           showKeys     209       7       2
+                   Query.h    function                              regEx     218       8       2
+                   Query.h    function                              regEx     228      11       3
+                   Query.h    function                              regEx     241      15       5
+                   Query.h    function                             orKeys     258      12       1
+                   Query.h    function                            andKeys     272      16       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     3 dirs
+   processed     1 files

@@ -1,0 +1,54 @@
+
+  <NoSQLDB>
+    <record>
+      <key>
+        Fawcett
+      </key>
+      <value>
+        <name>
+          Jim
+        </name>
+        <dateTime>
+          Thu Feb  1 11:05:03 2018
+        </dateTime>
+        <payLoad>
+          The good news is ...
+        </payLoad>
+        <description>
+          Instructor for CSE687
+        </description>
+        <children>
+          <key>
+            Namrata
+          </key>
+          <key>
+            Swapnil
+          </key>
+        </children>
+      </value>
+    </record>
+    <record>
+      <key>
+        Arkalgud
+      </key>
+      <value>
+        <name>
+          Namrata
+        </name>
+        <dateTime>
+          Thu Feb  1 11:05:03 2018
+        </dateTime>
+        <payLoad>
+          The good news is ... partial requirement is working
+        </payLoad>
+        <description>
+          Student of CSE687
+        </description>
+        <children>
+          <key>
+            Sowmya
+          </key>
+        </children>
+      </value>
+    </record>
+  </NoSQLDB>

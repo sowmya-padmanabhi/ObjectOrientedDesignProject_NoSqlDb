@@ -1,0 +1,43 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Tue Feb  6 22:37:26 2018
+     Path: "C:\Users\sowmy\Desktop\OOD Projects\NoSqlDb\Test"
+     Args: TestNoSqlDb.h, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      16
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+             TestNoSqlDb.h    function                                  ]      44       2       1
+             TestNoSqlDb.h       class                         DbProvider      55       6       2
+             TestNoSqlDb.h    function                                 db      56       2       1
+             TestNoSqlDb.h    function                             testR1      70       8       1
+             TestNoSqlDb.h    function                             testR2      82       7       1
+             TestNoSqlDb.h    function                            testR3a      93      36       1
+             TestNoSqlDb.h    function                            testR3b     132      67       1
+             TestNoSqlDb.h    function                         testR4and5     202      35       1
+             TestNoSqlDb.h    function                         testR6and7     240      57       1
+             TestNoSqlDb.h    function                             testR8     300      21       1
+             TestNoSqlDb.h    function                             testR9     324      21       1
+             TestNoSqlDb.h    function                            testR10     348      11       1
+             TestNoSqlDb.h    function                            testR11     361      12       1
+             TestNoSqlDb.h    function                            testR12     375       5       1
+             TestNoSqlDb.h    function                            testR13     382       6       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+             TestNoSqlDb.h    function                            testR3b     132      67       1
+             TestNoSqlDb.h    function                         testR6and7     240      57       1
+
+
+
+    searched     3 dirs
+   processed     1 files
